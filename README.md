@@ -1,5 +1,5 @@
 # Advertising_Budget_and_Sales
-##(I have taken the data from https://www.kaggle.com/datasets/yasserh/advertising-sales-dataset).
+## (I have taken the data from https://www.kaggle.com/datasets/yasserh/advertising-sales-dataset).
 The data focuses on how the Sales of a product(say) is influenced by Advertisements.
 Our main goal is to identify which of the variable is more influencing the target variable and predict for future sales.
 Based on the correlation of the data, it is clear that Sales is more influenced by TV Ad Budget and least influenced by Newspaper Ad Budget.
