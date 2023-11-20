@@ -5,5 +5,5 @@
 #### Based on the correlation of the data, it is clear that Sales is more influenced by TV Ad Budget and least influenced by Newspaper Ad Budget and there is lesser multicollinearity in the data.
 #### From BoxPlot, we can identify the presence of outliers in Newspaper Ad Budget variable.
 #### Since, only two outliers are present in the data, we choose to delete those rows containing the outliers.
-#### Although linearity exists between Sales and TV Ad budget, We go for RandomForest algorithm. And the reason for it is that, LinearRegression is sensitive towards the outliers and it is clear from Rsquare and adjusted Rsquare score that the score of the test data is more than the train data. Which clearly tells that the model doesnot match the data. As a result we use Random Forest(which uses DecisionTree. We can use other alorithms such as SVM_regressor, XGBoost, AdaBoost, NaiveBayes and DecisionTrees, as they are not sensitive towards the outliers.
-#### Based on R_square, Adjested R_square and MeanAbsoluteError, we prefer RandomForest than linearRegression model.
+#### Although linearity exists between Sales and TV Ad budget, We go for RandomForest algorithm. And the reason for it is that, LinearRegression is sensitive towards the outliers. As a result we use Random Forest(which uses DecisionTree). I have used SVR algorithm as well.
+#### Based on R_square and Adjested R_square, we prefer RandomForest over SVR for this data.
