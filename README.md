@@ -3,7 +3,8 @@
 #### This data focuses on how the Sales of a product(say) is influenced by Advertisements.
 ## Goals:
 #### 1. To identify which of the variable is more influencing the target variable
-#### 2. Predict for future sales.
+#### 2. Deal with outliers(if present)
+#### 3. Predict for future sales.
 
 ## Analysis
 #### 1. Based on the correlation of the data, it is clear that 'Sales ($)' is more influenced by 'TV Ad Budget ($)' and least influenced by 'Newspaper Ad Budget ($)' and there is lesser multicollinearity in the data.
